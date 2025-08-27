@@ -44,13 +44,3 @@ print(vector_store.similarity_search_with_score(
 ))
 
 
-
-
-
-
-
-
-
-
-
-

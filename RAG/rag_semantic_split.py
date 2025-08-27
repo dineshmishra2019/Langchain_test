@@ -58,8 +58,3 @@ for r in results:
     print("\n--- Result ---")
     print(r.page_content)
 
-# docs = text_splitter.create_documents([sample])
-# print(docs)
-# print(len(docs))
-# print(type(docs))
-# print(type(docs[0]))

@@ -2,7 +2,6 @@ from langchain_ollama import ChatOllama
 from langchain_community.document_loaders import WebBaseLoader, TextLoader, PyPDFLoader, PyPDFDirectoryLoader, Docx2txtLoader, UnstructuredWordDocumentLoader, PyMuPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
 import os
-import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, MessagesPlaceholder, PromptTemplate
 from langchain.schema import AIMessage
 from langchain.schema.output_parser import StrOutputParser
