@@ -36,7 +36,7 @@ st.write("You entered: ", input_txt)
 
 output_parser=StrOutputParser()
 
-chain = prompt | llm | output_parser | prompt
+chain = prompt | llm | output_parser 
 if input_txt:
     response=chain.invoke({"input":input_txt,"input_language":"English","output_language":"French"})
     st.write(response)
